@@ -16,7 +16,7 @@ I use a connection for pagination so I made sure I reproduced that exact for con
 ## Reproduce the error
 1. Boot application in development
 2. verify you can return a list of accounts:
-```json
+```
 {
   accounts {
     edges {
@@ -30,7 +30,7 @@ I use a connection for pagination so I made sure I reproduced that exact for con
 }
 ```
 2. Pull a single account
-```json
+```
 {
   account(id: 1) {
     name
